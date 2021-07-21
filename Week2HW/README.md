@@ -1,4 +1,3 @@
-# **Musab-Bayram**
 Kodluyoruz Eğitimi 2.hafta projesi
 ---
 *Bu projede instagram anasayfasındaki kaydırmalı menü yapısı kullanıldı* 
