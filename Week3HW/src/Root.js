@@ -9,7 +9,7 @@ export default class Root extends Component {
     return (
       <Router>
         <Stack key="Root">//ana bileşenimiz
-          <Scene key="Login" component={Login} hideNavBar initial />//login olunacak ekrana yönlendirilmesi için oluşturulan bileşen
+          <Scene key="Login" component={Login} hideNavBar initial />//login olunacak ekrana yönlendirilmesi için oluşturulan bileşen ve initial ile ilk açılan ekran olmasını sağlıyoruz
           <Scene key="Form" component={Form} hideNavBar />//login olunduktan sonraki sayfanın bileşeni
         </Stack>
       </Router>
