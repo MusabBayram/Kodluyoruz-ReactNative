@@ -8,9 +8,9 @@ export default class Root extends Component {
   render() {
     return (
       <Router>
-        <Stack key="Root">
-          <Scene key="Login" component={Login} hideNavBar initial />
-          <Scene key="Form" component={Form} hideNavBar />
+        <Stack key="Root">//ana bileşenimiz
+          <Scene key="Login" component={Login} hideNavBar initial />//login olunacak ekrana yönlendirilmesi için oluşturulan bileşen
+          <Scene key="Form" component={Form} hideNavBar />//login olunduktan sonraki sayfanın bileşeni
         </Stack>
       </Router>
     );
