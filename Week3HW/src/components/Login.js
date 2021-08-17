@@ -1,3 +1,4 @@
+//Login sayfası bu pagete bulunanlar ile oluşturuldu
 import React, {Component} from 'react';
 import {
   View,
